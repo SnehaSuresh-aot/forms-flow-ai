@@ -39,7 +39,7 @@
     "webpack-config-single-spa": "^5.0.0",
     "webpack-merge": "^5.8.0",
     "@babel/core": "^7.15.0",
-    "@babel/eslint-parser": "^7.15.0",
+    "@babel/eslint-parser": "^7.23.3",
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/runtime": "^7.15.3"
