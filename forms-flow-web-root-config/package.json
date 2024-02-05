@@ -27,7 +27,7 @@
   "dependencies": {
     "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.1",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.3.1",
     "pubsub-js": "^1.9.4",
     "single-spa": "^5.9.3",
     "single-spa-layout": "^1.6.0",
