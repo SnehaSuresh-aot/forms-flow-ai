@@ -39,6 +39,7 @@
 			<id>camunda</id>
 			<modules>
 				<module>forms-flow-bpm-utils</module>
+				<module>forms-flow-bpm-integration</module>
 				<module>forms-flow-bpm-camunda</module>
 			</modules>
 			<dependencyManagement>
@@ -157,11 +158,11 @@
 					<artifactId>camunda-engine-plugin-connect</artifactId>
 				</dependency>
 
-				<dependency>
-					<groupId>com.sun.mail</groupId>
-					<artifactId>javax.mail</artifactId>
-					<version>1.6.2</version>
-				</dependency>
+				<!--				<dependency>-->
+				<!--					<groupId>com.sun.mail</groupId>-->
+				<!--					<artifactId>javax.mail</artifactId>-->
+				<!--					<version>1.6.2</version>-->
+				<!--				</dependency>-->
 
 				<dependency>
 					<groupId>org.slf4j</groupId>
@@ -330,7 +331,7 @@
 					<artifactId>spring-boot-starter-data-redis-reactive</artifactId>
 				</dependency>
 
-<!--				https://mvnrepository.com/artifact/org.camunda.bpm/camunda-engine-rest -->
+				<!--				https://mvnrepository.com/artifact/org.camunda.bpm/camunda-engine-rest -->
 				<dependency>
 					<groupId>org.camunda.bpm</groupId>
 					<artifactId>camunda-engine-rest-core</artifactId>
@@ -344,6 +345,12 @@
 					<version>${version.commonsFileUpload}</version>
 				</dependency>
 
+				<dependency>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-mail</artifactId>
+					<version>3.1.5</version>
+				</dependency>
+
 			</dependencies>
 		</profile>
 	</profiles>
@@ -351,6 +358,7 @@
 	<modules>
 		<module>forms-flow-bpm-utils</module>
 		<module>forms-flow-bpm-camunda</module>
+		<module>forms-flow-bpm-integration</module>
 	</modules>
 
 
