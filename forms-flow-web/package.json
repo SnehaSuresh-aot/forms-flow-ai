@@ -101,7 +101,7 @@
     "sockjs-client": "^1.5.1",
     "source-map-explorer": "^2.5.2",
     "stompjs": "^2.3.3",
-    "ws": "^7.4.6"
+    "ws": "^7.5.10"
   },
   "resolutions": {
     "browserslist": "^4.17.6",
