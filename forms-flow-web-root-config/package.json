@@ -41,6 +41,6 @@
     "@babel/eslint-parser": "^7.15.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
-    "@babel/runtime": "^7.15.3"
+    "@babel/runtime": "^7.27.6"
   }
 }
