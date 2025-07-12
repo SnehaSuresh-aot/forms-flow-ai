@@ -90,7 +90,7 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.15.3",
     "react-js-pagination": "^3.0.3",
-    "react-loading-overlay-ts": "^1.0.5",
+    "react-loading-overlay-ts": "^2.0.2",
     "react-query": "^3.39.3",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.1.2",
